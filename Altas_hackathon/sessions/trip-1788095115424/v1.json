@@ -1,0 +1,861 @@
+{
+  "version": 1,
+  "previous_version": null,
+  "updated_at": "2026-08-30T13:05:15.432746+00:00",
+  "trip_config": {
+    "destination": "KUL",
+    "start_date": "2026-09-22",
+    "end_date": "2026-09-24",
+    "arrival_datetime": "2026-09-22T08:00:00",
+    "departure_datetime": "2026-09-24T22:00:00",
+    "hotel": {
+      "name": "Traders Hotel, Kuala Lumpur",
+      "latitude": 3.1537,
+      "longitude": 101.715,
+      "address": "Kuala Lumpur City Centre"
+    },
+    "airport": {},
+    "travel_style": "packed",
+    "transport_mode": "TRANSIT",
+    "group_size": 2,
+    "budget": "medium",
+    "check_in_time": "15:00",
+    "check_out_time": "11:00",
+    "selected_preferences": [],
+    "preferences": {
+      "culture": 0.5,
+      "scenery": 0.5,
+      "food": 0.5,
+      "shopping": 0.5,
+      "entertainment": 0.5,
+      "adventure": 0.5,
+      "wellness": 0.5,
+      "city": 0.5
+    },
+    "custom_vibe": ""
+  },
+  "days": [
+    {
+      "day_index": 0,
+      "date": "2026-09-22",
+      "day_type": "arrival",
+      "base_location": {
+        "name": "Traders Hotel, Kuala Lumpur",
+        "latitude": 3.1537,
+        "longitude": 101.715,
+        "address": "Kuala Lumpur City Centre"
+      },
+      "start_time": "2026-09-22T10:00:00",
+      "end_time": "2026-09-22T21:00:00",
+      "attractions": [
+        {
+          "id": "boot-batu-caves",
+          "name": "Batu Caves",
+          "location": {
+            "latitude": 3.237882,
+            "longitude": 101.684038,
+            "name": "Batu Caves",
+            "address": "Gombak, 68100 Batu Caves, Selangor, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.6,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 7:00 AM – 9:00 PM",
+            "Tuesday: 7:00 AM – 9:00 PM",
+            "Wednesday: 7:00 AM – 9:00 PM",
+            "Thursday: 7:00 AM – 9:00 PM",
+            "Friday: 7:00 AM – 9:00 PM",
+            "Saturday: 7:00 AM – 9:00 PM",
+            "Sunday: 7:00 AM – 9:00 PM"
+          ],
+          "visit_duration_min": 120,
+          "score": 0.0,
+          "source": "text"
+        }
+      ],
+      "meals": {
+        "dinner": {
+          "id": "boot-old-china-cafe",
+          "name": "Old China Cafe",
+          "location": {
+            "latitude": 3.142013,
+            "longitude": 101.697858,
+            "name": "Old China Cafe",
+            "address": "11, Jalan Balai Polis, City Centre, 50000 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.3,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_MODERATE",
+          "opening_hours": [
+            "Monday: 11:00 AM – 10:00 PM",
+            "Tuesday: 11:00 AM – 10:00 PM",
+            "Wednesday: 11:00 AM – 10:00 PM",
+            "Thursday: 11:00 AM – 10:00 PM",
+            "Friday: 11:00 AM – 10:00 PM",
+            "Saturday: 11:00 AM – 10:00 PM",
+            "Sunday: 11:00 AM – 10:00 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        }
+      },
+      "dropped_meals": [],
+      "capacity_min": 1,
+      "capacity_max": 3,
+      "valid": true,
+      "violations": []
+    },
+    {
+      "day_index": 1,
+      "date": "2026-09-23",
+      "day_type": "normal",
+      "base_location": {
+        "name": "Traders Hotel, Kuala Lumpur",
+        "latitude": 3.1537,
+        "longitude": 101.715,
+        "address": "Kuala Lumpur City Centre"
+      },
+      "start_time": "2026-09-23T08:00:00",
+      "end_time": "2026-09-23T21:00:00",
+      "attractions": [
+        {
+          "id": "boot-thean-hou-temple",
+          "name": "Thean Hou Temple",
+          "location": {
+            "latitude": 3.1214,
+            "longitude": 101.688,
+            "name": "Thean Hou Temple",
+            "address": "65, Persiaran Endah, Taman Persiaran Desa, 50460 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.6,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 8:00 AM – 10:00 PM",
+            "Tuesday: 8:00 AM – 10:00 PM",
+            "Wednesday: 8:00 AM – 10:00 PM",
+            "Thursday: 8:00 AM – 10:00 PM",
+            "Friday: 8:00 AM – 10:00 PM",
+            "Saturday: 8:00 AM – 10:00 PM",
+            "Sunday: 8:00 AM – 10:00 PM"
+          ],
+          "visit_duration_min": 90,
+          "score": 0.0,
+          "source": "text"
+        },
+        {
+          "id": "boot-perdana-botanical-gardens",
+          "name": "Perdana Botanical Gardens",
+          "location": {
+            "latitude": 3.1423,
+            "longitude": 101.6842,
+            "name": "Perdana Botanical Gardens",
+            "address": "Jalan Kebun Bunga, Tasik Perdana, 55100 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.5,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 7:00 AM – 8:00 PM",
+            "Tuesday: 7:00 AM – 8:00 PM",
+            "Wednesday: 7:00 AM – 8:00 PM",
+            "Thursday: 7:00 AM – 8:00 PM",
+            "Friday: 7:00 AM – 8:00 PM",
+            "Saturday: 7:00 AM – 8:00 PM",
+            "Sunday: 7:00 AM – 8:00 PM"
+          ],
+          "visit_duration_min": 120,
+          "score": 0.0,
+          "source": "text"
+        },
+        {
+          "id": "boot-islamic-arts-museum-malaysia",
+          "name": "Islamic Arts Museum Malaysia",
+          "location": {
+            "latitude": 3.1402,
+            "longitude": 101.6896,
+            "name": "Islamic Arts Museum Malaysia",
+            "address": "Jalan Lembah, Tasik Perdana, 50480 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.7,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 9:30 AM – 6:00 PM",
+            "Tuesday: 9:30 AM – 6:00 PM",
+            "Wednesday: 9:30 AM – 6:00 PM",
+            "Thursday: 9:30 AM – 6:00 PM",
+            "Friday: 9:30 AM – 6:00 PM",
+            "Saturday: 9:30 AM – 6:00 PM",
+            "Sunday: 9:30 AM – 6:00 PM"
+          ],
+          "visit_duration_min": 120,
+          "score": 0.0,
+          "source": "text"
+        }
+      ],
+      "meals": {
+        "breakfast": {
+          "id": "boot-vcr",
+          "name": "VCR",
+          "location": {
+            "latitude": 3.1444,
+            "longitude": 101.7056,
+            "name": "VCR",
+            "address": "2, Jalan Galloway, Bukit Bintang, 50150 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.4,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_MODERATE",
+          "opening_hours": [
+            "Monday: 8:30 AM – 5:00 PM",
+            "Tuesday: 8:30 AM – 5:00 PM",
+            "Wednesday: 8:30 AM – 5:00 PM",
+            "Thursday: 8:30 AM – 5:00 PM",
+            "Friday: 8:30 AM – 5:00 PM",
+            "Saturday: 8:30 AM – 5:00 PM",
+            "Sunday: 8:30 AM – 5:00 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        },
+        "lunch": {
+          "id": "boot-merchant-s-lane",
+          "name": "Merchant's Lane",
+          "location": {
+            "latitude": 3.1415,
+            "longitude": 101.6988,
+            "name": "Merchant's Lane",
+            "address": "150, Jalan Petaling, City Centre, 50000 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.2,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_MODERATE",
+          "opening_hours": [
+            "Monday: 11:30 AM – 9:30 PM",
+            "Tuesday: 11:30 AM – 9:30 PM",
+            "Wednesday: Closed",
+            "Thursday: 11:30 AM – 9:30 PM",
+            "Friday: 11:30 AM – 9:30 PM",
+            "Saturday: 11:30 AM – 9:30 PM",
+            "Sunday: 11:30 AM – 9:30 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        },
+        "dinner": {
+          "id": "boot-bijan-bar-restaurant",
+          "name": "Bijan Bar & Restaurant",
+          "location": {
+            "latitude": 3.1491,
+            "longitude": 101.7061,
+            "name": "Bijan Bar & Restaurant",
+            "address": "3, Jalan Ceylon, Bukit Ceylon, 50200 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.4,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_EXPENSIVE",
+          "opening_hours": [
+            "Monday: 4:30 PM – 11:00 PM",
+            "Tuesday: 4:30 PM – 11:00 PM",
+            "Wednesday: 4:30 PM – 11:00 PM",
+            "Thursday: 4:30 PM – 11:00 PM",
+            "Friday: 4:30 PM – 11:00 PM",
+            "Saturday: 4:30 PM – 11:00 PM",
+            "Sunday: 4:30 PM – 11:00 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        }
+      },
+      "dropped_meals": [],
+      "capacity_min": 4,
+      "capacity_max": 8,
+      "valid": true,
+      "violations": []
+    },
+    {
+      "day_index": 2,
+      "date": "2026-09-24",
+      "day_type": "departure",
+      "base_location": {
+        "name": "Traders Hotel, Kuala Lumpur",
+        "latitude": 3.1537,
+        "longitude": 101.715,
+        "address": "Kuala Lumpur City Centre"
+      },
+      "start_time": "2026-09-24T08:00:00",
+      "end_time": "2026-09-24T19:00:00",
+      "attractions": [
+        {
+          "id": "boot-national-monument",
+          "name": "National Monument",
+          "location": {
+            "latitude": 3.1491,
+            "longitude": 101.6835,
+            "name": "National Monument",
+            "address": "Taman Tasik Perdana, 50480 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.4,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 7:00 AM – 6:00 PM",
+            "Tuesday: 7:00 AM – 6:00 PM",
+            "Wednesday: 7:00 AM – 6:00 PM",
+            "Thursday: 7:00 AM – 6:00 PM",
+            "Friday: 7:00 AM – 6:00 PM",
+            "Saturday: 7:00 AM – 6:00 PM",
+            "Sunday: 7:00 AM – 6:00 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "text"
+        }
+      ],
+      "meals": {
+        "breakfast": {
+          "id": "boot-feeka-coffee-roasters",
+          "name": "Feeka Coffee Roasters",
+          "location": {
+            "latitude": 3.1486849,
+            "longitude": 101.7084482,
+            "name": "Feeka Coffee Roasters",
+            "address": "19, Jln Mesui, Bukit Bintang, 50200 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.4,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_MODERATE",
+          "opening_hours": [
+            "Monday: 8:00 AM – 10:00 PM",
+            "Tuesday: 8:00 AM – 10:00 PM",
+            "Wednesday: 8:00 AM – 10:00 PM",
+            "Thursday: 8:00 AM – 10:00 PM",
+            "Friday: 8:00 AM – 10:00 PM",
+            "Saturday: 8:00 AM – 10:00 PM",
+            "Sunday: 8:00 AM – 10:00 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        },
+        "lunch": {
+          "id": "boot-peter-s-pork-noodle",
+          "name": "Peter's Pork Noodle",
+          "location": {
+            "latitude": 3.1311,
+            "longitude": 101.6896,
+            "name": "Peter's Pork Noodle",
+            "address": "Money's Corner, 144A, Jalan Vivekanda, Brickfields, 50470 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.3,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_INEXPENSIVE",
+          "opening_hours": [
+            "Monday: 7:00 AM – 3:30 PM",
+            "Tuesday: 7:00 AM – 3:30 PM",
+            "Wednesday: 7:00 AM – 3:30 PM",
+            "Thursday: 7:00 AM – 3:30 PM",
+            "Friday: 7:00 AM – 3:30 PM",
+            "Saturday: 7:00 AM – 3:30 PM",
+            "Sunday: 7:00 AM – 3:30 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        }
+      },
+      "dropped_meals": [],
+      "capacity_min": 1,
+      "capacity_max": 2,
+      "valid": true,
+      "violations": []
+    }
+  ],
+  "used_restaurants": [
+    "bijan bar & restaurant",
+    "feeka coffee roasters",
+    "merchant's lane",
+    "old china cafe",
+    "peter's pork noodle",
+    "vcr"
+  ],
+  "preferences": {
+    "culture": 0.5,
+    "scenery": 0.5,
+    "food": 0.5,
+    "shopping": 0.5,
+    "entertainment": 0.5,
+    "adventure": 0.5,
+    "wellness": 0.5,
+    "city": 0.5
+  },
+  "display_itinerary": {
+    "destination": "Kuala Lumpur",
+    "start": "2026-09-22",
+    "end": "2026-09-24",
+    "days": [
+      {
+        "day": 0,
+        "date": "2026-09-22",
+        "type": "arrival",
+        "valid": true,
+        "schedule": [
+          {
+            "time": "15:00",
+            "name": "Hotel Check-in (Traders Hotel, Kuala Lumpur)",
+            "kind": "hotel_checkin",
+            "duration_min": 45,
+            "location": {
+              "latitude": 3.1537,
+              "longitude": 101.715,
+              "name": "Traders Hotel, Kuala Lumpur",
+              "address": "Kuala Lumpur City Centre"
+            },
+            "rating": 4.2,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 25 mins ---> Batu Caves"
+            }
+          },
+          {
+            "time": "16:10",
+            "name": "Batu Caves",
+            "kind": "attraction",
+            "duration_min": 120,
+            "location": {
+              "latitude": 3.237882,
+              "longitude": 101.684038,
+              "name": "Batu Caves",
+              "address": "Gombak, 68100 Batu Caves, Selangor, Malaysia"
+            },
+            "rating": 4.6,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 7:00 AM – 9:00 PM",
+              "Tuesday: 7:00 AM – 9:00 PM",
+              "Wednesday: 7:00 AM – 9:00 PM",
+              "Thursday: 7:00 AM – 9:00 PM",
+              "Friday: 7:00 AM – 9:00 PM",
+              "Saturday: 7:00 AM – 9:00 PM",
+              "Sunday: 7:00 AM – 9:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 25 mins ---> Dinner: Old China Cafe"
+            }
+          },
+          {
+            "time": "18:35",
+            "name": "Dinner: Old China Cafe",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.142013,
+              "longitude": 101.697858,
+              "name": "Old China Cafe",
+              "address": "11, Jalan Balai Polis, City Centre, 50000 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.3,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "opening_hours": [
+              "Monday: 11:00 AM – 10:00 PM",
+              "Tuesday: 11:00 AM – 10:00 PM",
+              "Wednesday: 11:00 AM – 10:00 PM",
+              "Thursday: 11:00 AM – 10:00 PM",
+              "Friday: 11:00 AM – 10:00 PM",
+              "Saturday: 11:00 AM – 10:00 PM",
+              "Sunday: 11:00 AM – 10:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 12 mins ---> Return to Hotel (Impiana KLCC Hotel)"
+            }
+          },
+          {
+            "time": "19:47",
+            "name": "Return to Hotel (Traders Hotel, Kuala Lumpur)",
+            "kind": "hotel",
+            "duration_min": 0,
+            "location": {
+              "latitude": 3.1537,
+              "longitude": 101.715,
+              "name": "Traders Hotel, Kuala Lumpur",
+              "address": "Kuala Lumpur City Centre"
+            },
+            "rating": null,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": null
+          }
+        ],
+        "attractions": [
+          "Batu Caves"
+        ],
+        "meals": {
+          "breakfast": null,
+          "lunch": null,
+          "dinner": "Old China Cafe"
+        }
+      },
+      {
+        "day": 1,
+        "date": "2026-09-23",
+        "type": "normal",
+        "valid": true,
+        "schedule": [
+          {
+            "time": "08:30",
+            "name": "Breakfast: VCR",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1444,
+              "longitude": 101.7056,
+              "name": "VCR",
+              "address": "2, Jalan Galloway, Bukit Bintang, 50150 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.4,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "opening_hours": [
+              "Monday: 8:30 AM – 5:00 PM",
+              "Tuesday: 8:30 AM – 5:00 PM",
+              "Wednesday: 8:30 AM – 5:00 PM",
+              "Thursday: 8:30 AM – 5:00 PM",
+              "Friday: 8:30 AM – 5:00 PM",
+              "Saturday: 8:30 AM – 5:00 PM",
+              "Sunday: 8:30 AM – 5:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 12 mins ---> Thean Hou Temple"
+            }
+          },
+          {
+            "time": "09:42",
+            "name": "Thean Hou Temple",
+            "kind": "attraction",
+            "duration_min": 90,
+            "location": {
+              "latitude": 3.1214,
+              "longitude": 101.688,
+              "name": "Thean Hou Temple",
+              "address": "65, Persiaran Endah, Taman Persiaran Desa, 50460 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.6,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 8:00 AM – 10:00 PM",
+              "Tuesday: 8:00 AM – 10:00 PM",
+              "Wednesday: 8:00 AM – 10:00 PM",
+              "Thursday: 8:00 AM – 10:00 PM",
+              "Friday: 8:00 AM – 10:00 PM",
+              "Saturday: 8:00 AM – 10:00 PM",
+              "Sunday: 8:00 AM – 10:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 10 mins ---> Perdana Botanical Gardens"
+            }
+          },
+          {
+            "time": "11:22",
+            "name": "Perdana Botanical Gardens",
+            "kind": "attraction",
+            "duration_min": 120,
+            "location": {
+              "latitude": 3.1423,
+              "longitude": 101.6842,
+              "name": "Perdana Botanical Gardens",
+              "address": "Jalan Kebun Bunga, Tasik Perdana, 55100 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.5,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 7:00 AM – 8:00 PM",
+              "Tuesday: 7:00 AM – 8:00 PM",
+              "Wednesday: 7:00 AM – 8:00 PM",
+              "Thursday: 7:00 AM – 8:00 PM",
+              "Friday: 7:00 AM – 8:00 PM",
+              "Saturday: 7:00 AM – 8:00 PM",
+              "Sunday: 7:00 AM – 8:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 6 mins ---> Lunch: Merchant's Lane"
+            }
+          },
+          {
+            "time": "13:28",
+            "name": "Lunch: Merchant's Lane",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1415,
+              "longitude": 101.6988,
+              "name": "Merchant's Lane",
+              "address": "150, Jalan Petaling, City Centre, 50000 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.2,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "opening_hours": [
+              "Monday: 11:30 AM – 9:30 PM",
+              "Tuesday: 11:30 AM – 9:30 PM",
+              "Wednesday: Closed",
+              "Thursday: 11:30 AM – 9:30 PM",
+              "Friday: 11:30 AM – 9:30 PM",
+              "Saturday: 11:30 AM – 9:30 PM",
+              "Sunday: 11:30 AM – 9:30 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 7 mins ---> Islamic Arts Museum Malaysia"
+            }
+          },
+          {
+            "time": "14:35",
+            "name": "Islamic Arts Museum Malaysia",
+            "kind": "attraction",
+            "duration_min": 120,
+            "location": {
+              "latitude": 3.1402,
+              "longitude": 101.6896,
+              "name": "Islamic Arts Museum Malaysia",
+              "address": "Jalan Lembah, Tasik Perdana, 50480 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.7,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 9:30 AM – 6:00 PM",
+              "Tuesday: 9:30 AM – 6:00 PM",
+              "Wednesday: 9:30 AM – 6:00 PM",
+              "Thursday: 9:30 AM – 6:00 PM",
+              "Friday: 9:30 AM – 6:00 PM",
+              "Saturday: 9:30 AM – 6:00 PM",
+              "Sunday: 9:30 AM – 6:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 12 mins ---> Dinner: Bijan Bar & Restaurant"
+            }
+          },
+          {
+            "time": "18:30",
+            "name": "Dinner: Bijan Bar & Restaurant",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1491,
+              "longitude": 101.7061,
+              "name": "Bijan Bar & Restaurant",
+              "address": "3, Jalan Ceylon, Bukit Ceylon, 50200 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.4,
+            "price_level": "PRICE_LEVEL_EXPENSIVE",
+            "opening_hours": [
+              "Monday: 4:30 PM – 11:00 PM",
+              "Tuesday: 4:30 PM – 11:00 PM",
+              "Wednesday: 4:30 PM – 11:00 PM",
+              "Thursday: 4:30 PM – 11:00 PM",
+              "Friday: 4:30 PM – 11:00 PM",
+              "Saturday: 4:30 PM – 11:00 PM",
+              "Sunday: 4:30 PM – 11:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 10 mins ---> Return to Hotel (Impiana KLCC Hotel)"
+            }
+          },
+          {
+            "time": "19:40",
+            "name": "Return to Hotel (Traders Hotel, Kuala Lumpur)",
+            "kind": "hotel",
+            "duration_min": 0,
+            "location": {
+              "latitude": 3.1537,
+              "longitude": 101.715,
+              "name": "Traders Hotel, Kuala Lumpur",
+              "address": "Kuala Lumpur City Centre"
+            },
+            "rating": null,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": null
+          }
+        ],
+        "attractions": [
+          "Thean Hou Temple",
+          "Perdana Botanical Gardens",
+          "Islamic Arts Museum Malaysia"
+        ],
+        "meals": {
+          "breakfast": "VCR",
+          "lunch": "Merchant's Lane",
+          "dinner": "Bijan Bar & Restaurant"
+        }
+      },
+      {
+        "day": 2,
+        "date": "2026-09-24",
+        "type": "departure",
+        "valid": true,
+        "schedule": [
+          {
+            "time": "08:30",
+            "name": "Breakfast: Feeka Coffee Roasters",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1486849,
+              "longitude": 101.7084482,
+              "name": "Feeka Coffee Roasters",
+              "address": "19, Jln Mesui, Bukit Bintang, 50200 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.4,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "opening_hours": [
+              "Monday: 8:00 AM – 10:00 PM",
+              "Tuesday: 8:00 AM – 10:00 PM",
+              "Wednesday: 8:00 AM – 10:00 PM",
+              "Thursday: 8:00 AM – 10:00 PM",
+              "Friday: 8:00 AM – 10:00 PM",
+              "Saturday: 8:00 AM – 10:00 PM",
+              "Sunday: 8:00 AM – 10:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 8 mins ---> Hotel Check-out (Impiana KLCC Hotel)"
+            }
+          },
+          {
+            "time": "09:38",
+            "name": "Hotel Check-out (Traders Hotel, Kuala Lumpur)",
+            "kind": "hotel_checkin",
+            "duration_min": 45,
+            "location": {
+              "latitude": 3.1537,
+              "longitude": 101.715,
+              "name": "Traders Hotel, Kuala Lumpur",
+              "address": "Kuala Lumpur City Centre"
+            },
+            "rating": 4.2,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 7 mins ---> National Monument"
+            }
+          },
+          {
+            "time": "10:30",
+            "name": "National Monument",
+            "kind": "attraction",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1491,
+              "longitude": 101.6835,
+              "name": "National Monument",
+              "address": "Taman Tasik Perdana, 50480 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.4,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 7:00 AM – 6:00 PM",
+              "Tuesday: 7:00 AM – 6:00 PM",
+              "Wednesday: 7:00 AM – 6:00 PM",
+              "Thursday: 7:00 AM – 6:00 PM",
+              "Friday: 7:00 AM – 6:00 PM",
+              "Saturday: 7:00 AM – 6:00 PM",
+              "Sunday: 7:00 AM – 6:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 9 mins ---> Lunch: Peter's Pork Noodle"
+            }
+          },
+          {
+            "time": "11:39",
+            "name": "Lunch: Peter's Pork Noodle",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1311,
+              "longitude": 101.6896,
+              "name": "Peter's Pork Noodle",
+              "address": "Money's Corner, 144A, Jalan Vivekanda, Brickfields, 50470 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.3,
+            "price_level": "PRICE_LEVEL_INEXPENSIVE",
+            "opening_hours": [
+              "Monday: 7:00 AM – 3:30 PM",
+              "Tuesday: 7:00 AM – 3:30 PM",
+              "Wednesday: 7:00 AM – 3:30 PM",
+              "Thursday: 7:00 AM – 3:30 PM",
+              "Friday: 7:00 AM – 3:30 PM",
+              "Saturday: 7:00 AM – 3:30 PM",
+              "Sunday: 7:00 AM – 3:30 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 12 mins ---> Pick Up Bags & Depart for Airport"
+            }
+          },
+          {
+            "time": "12:51",
+            "name": "Pick Up Bags & Depart for Airport",
+            "kind": "hotel",
+            "duration_min": 0,
+            "location": {
+              "latitude": 3.1537,
+              "longitude": 101.715,
+              "name": "Traders Hotel, Kuala Lumpur",
+              "address": "Kuala Lumpur City Centre"
+            },
+            "rating": null,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": null
+          }
+        ],
+        "attractions": [
+          "National Monument"
+        ],
+        "meals": {
+          "breakfast": "Feeka Coffee Roasters",
+          "lunch": "Peter's Pork Noodle",
+          "dinner": null
+        }
+      }
+    ],
+    "error": null
+  }
+}

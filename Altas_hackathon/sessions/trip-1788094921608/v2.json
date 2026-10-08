@@ -1,0 +1,861 @@
+{
+  "version": 2,
+  "previous_version": null,
+  "updated_at": "2026-08-30T13:03:44.775613+00:00",
+  "trip_config": {
+    "destination": "KUL",
+    "start_date": "2026-09-22",
+    "end_date": "2026-09-24",
+    "arrival_datetime": "2026-09-22T08:00:00",
+    "departure_datetime": "2026-09-24T22:00:00",
+    "hotel": {
+      "name": "Impiana KLCC Hotel",
+      "latitude": 3.1535593,
+      "longitude": 101.7113219,
+      "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+    },
+    "airport": {},
+    "travel_style": "packed",
+    "transport_mode": "TRANSIT",
+    "group_size": 2,
+    "budget": "medium",
+    "check_in_time": "15:00",
+    "check_out_time": "11:00",
+    "selected_preferences": [],
+    "preferences": {
+      "culture": 0.5,
+      "scenery": 0.5,
+      "food": 0.5,
+      "shopping": 0.5,
+      "entertainment": 0.5,
+      "adventure": 0.5,
+      "wellness": 0.5,
+      "city": 0.5
+    },
+    "custom_vibe": ""
+  },
+  "days": [
+    {
+      "day_index": 0,
+      "date": "2026-09-22",
+      "day_type": "arrival",
+      "base_location": {
+        "name": "Impiana KLCC Hotel",
+        "latitude": 3.1535593,
+        "longitude": 101.7113219,
+        "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+      },
+      "start_time": "2026-09-22T10:00:00",
+      "end_time": "2026-09-22T21:00:00",
+      "attractions": [
+        {
+          "id": "boot-menara-kuala-lumpur",
+          "name": "Menara Kuala Lumpur",
+          "location": {
+            "latitude": 3.1528762,
+            "longitude": 101.7038516,
+            "name": "Menara Kuala Lumpur",
+            "address": "2 Jalan Punchak, Off, Jalan P. Ramlee, Kuala Lumpur, 50250 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.5,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 9:00 AM – 10:00 PM",
+            "Tuesday: 9:00 AM – 10:00 PM",
+            "Wednesday: 9:00 AM – 10:00 PM",
+            "Thursday: 9:00 AM – 10:00 PM",
+            "Friday: 9:00 AM – 10:00 PM",
+            "Saturday: 9:00 AM – 10:00 PM",
+            "Sunday: 9:00 AM – 10:00 PM"
+          ],
+          "visit_duration_min": 120,
+          "score": 0.0,
+          "source": "text"
+        }
+      ],
+      "meals": {
+        "dinner": {
+          "id": "boot-damascus-bukit-bintang",
+          "name": "Damascus Bukit Bintang",
+          "location": {
+            "latitude": 3.147299,
+            "longitude": 101.7116443,
+            "name": "Damascus Bukit Bintang",
+            "address": "Corner of Jalan Bukit Bintang and Jln Sultan Ismail, Bukit Bintang, 55100 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.4,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_MODERATE",
+          "opening_hours": [
+            "Monday: 8:00 AM – 4:30 AM",
+            "Tuesday: 8:00 AM – 4:30 AM",
+            "Wednesday: 8:00 AM – 4:30 AM",
+            "Thursday: 8:00 AM – 4:30 AM",
+            "Friday: 8:00 AM – 1:00 PM, 2:00 PM – 4:30 AM",
+            "Saturday: 8:00 AM – 4:30 AM",
+            "Sunday: 8:00 AM – 4:30 AM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        }
+      },
+      "dropped_meals": [],
+      "capacity_min": 1,
+      "capacity_max": 3,
+      "valid": true,
+      "violations": []
+    },
+    {
+      "day_index": 1,
+      "date": "2026-09-23",
+      "day_type": "normal",
+      "base_location": {
+        "name": "Impiana KLCC Hotel",
+        "latitude": 3.1535593,
+        "longitude": 101.7113219,
+        "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+      },
+      "start_time": "2026-09-23T08:00:00",
+      "end_time": "2026-09-23T21:00:00",
+      "attractions": [
+        {
+          "id": "boot-klcc-park",
+          "name": "KLCC Park",
+          "location": {
+            "latitude": 3.1555902,
+            "longitude": 101.7147872,
+            "name": "KLCC Park",
+            "address": "City Centre, Kuala Lumpur City Centre, 50450 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.7,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 6:00 AM – 10:00 PM",
+            "Tuesday: 6:00 AM – 10:00 PM",
+            "Wednesday: 6:00 AM – 10:00 PM",
+            "Thursday: 6:00 AM – 10:00 PM",
+            "Friday: 6:00 AM – 10:00 PM",
+            "Saturday: 6:00 AM – 10:00 PM",
+            "Sunday: 6:00 AM – 10:00 PM"
+          ],
+          "visit_duration_min": 120,
+          "score": 0.0,
+          "source": "text"
+        },
+        {
+          "id": "boot-suria-klcc",
+          "name": "Suria KLCC",
+          "location": {
+            "latitude": 3.1572757,
+            "longitude": 101.7122335,
+            "name": "Suria KLCC",
+            "address": "Lot No. 241, Level 2 Menara Berkembar Petronas, KLCC, 50088 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.6,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 10:00 AM – 10:00 PM",
+            "Tuesday: 10:00 AM – 10:00 PM",
+            "Wednesday: 10:00 AM – 10:00 PM",
+            "Thursday: 10:00 AM – 10:00 PM",
+            "Friday: 10:00 AM – 10:00 PM",
+            "Saturday: 10:00 AM – 10:00 PM",
+            "Sunday: 10:00 AM – 10:00 PM"
+          ],
+          "visit_duration_min": 120,
+          "score": 0.0,
+          "source": "text"
+        },
+        {
+          "id": "boot-petronas-twin-towers",
+          "name": "Petronas Twin Towers",
+          "location": {
+            "latitude": 3.1574693,
+            "longitude": 101.7115639,
+            "name": "Petronas Twin Towers",
+            "address": "Lower Ground Concourse Level, Menara Berkembar Petronas, KLCC, 50088 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.7,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: Closed",
+            "Tuesday: 9:00 AM – 9:00 PM",
+            "Wednesday: 9:00 AM – 9:00 PM",
+            "Thursday: 9:00 AM – 9:00 PM",
+            "Friday: 9:00 AM – 9:00 PM",
+            "Saturday: 9:00 AM – 9:00 PM",
+            "Sunday: 9:00 AM – 9:00 PM"
+          ],
+          "visit_duration_min": 120,
+          "score": 0.0,
+          "source": "text"
+        }
+      ],
+      "meals": {
+        "breakfast": {
+          "id": "boot-grumpy-bagels",
+          "name": "Grumpy Bagels",
+          "location": {
+            "latitude": 3.1457067,
+            "longitude": 101.7164868,
+            "name": "Grumpy Bagels",
+            "address": "5, Jalan Kamuning, Off, Jln Imbi, Imbi, 55100 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.6,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_MODERATE",
+          "opening_hours": [
+            "Monday: 9:00 AM – 5:00 PM",
+            "Tuesday: 9:00 AM – 5:00 PM",
+            "Wednesday: 9:00 AM – 5:00 PM",
+            "Thursday: 9:00 AM – 5:00 PM",
+            "Friday: 9:00 AM – 5:00 PM",
+            "Saturday: 8:30 AM – 5:00 PM",
+            "Sunday: 8:30 AM – 5:00 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        },
+        "lunch": {
+          "id": "boot-village-park-restaurant",
+          "name": "Village Park Restaurant",
+          "location": {
+            "latitude": 3.1378,
+            "longitude": 101.6218,
+            "name": "Village Park Restaurant",
+            "address": "5, Jalan SS 21/37, Damansara Utama, 47400 Petaling Jaya, Selangor, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.6,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_MODERATE",
+          "opening_hours": [
+            "Monday: 6:30 AM – 5:30 PM",
+            "Tuesday: 6:30 AM – 5:30 PM",
+            "Wednesday: 6:30 AM – 5:30 PM",
+            "Thursday: 6:30 AM – 5:30 PM",
+            "Friday: 6:30 AM – 5:30 PM",
+            "Saturday: 6:30 AM – 5:30 PM",
+            "Sunday: 6:30 AM – 5:30 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        },
+        "dinner": {
+          "id": "boot-nasi-lemak-wanjo-kg-baru",
+          "name": "Nasi Lemak Wanjo Kg Baru",
+          "location": {
+            "latitude": 3.1623698,
+            "longitude": 101.7044279,
+            "name": "Nasi Lemak Wanjo Kg Baru",
+            "address": "8, Jalan Raja Muda Musa, Kampung Baru, 50300 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.1,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_INEXPENSIVE",
+          "opening_hours": [
+            "Monday: 6:00 AM – 12:00 AM",
+            "Tuesday: 6:00 AM – 12:00 AM",
+            "Wednesday: 6:00 AM – 12:00 AM",
+            "Thursday: 6:00 AM – 12:00 AM",
+            "Friday: 6:00 AM – 12:00 AM",
+            "Saturday: 6:00 AM – 12:00 AM",
+            "Sunday: 6:00 AM – 12:00 AM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        }
+      },
+      "dropped_meals": [],
+      "capacity_min": 4,
+      "capacity_max": 8,
+      "valid": true,
+      "violations": []
+    },
+    {
+      "day_index": 2,
+      "date": "2026-09-24",
+      "day_type": "departure",
+      "base_location": {
+        "name": "Impiana KLCC Hotel",
+        "latitude": 3.1535593,
+        "longitude": 101.7113219,
+        "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+      },
+      "start_time": "2026-09-24T08:00:00",
+      "end_time": "2026-09-24T19:00:00",
+      "attractions": [
+        {
+          "id": "boot-aquaria-klcc",
+          "name": "Aquaria KLCC",
+          "location": {
+            "latitude": 3.1535483,
+            "longitude": 101.713178,
+            "name": "Aquaria KLCC",
+            "address": "Kuala Lumpur Convention Centre, Jalan Pinang, KLCC, 50088 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.3,
+          "user_rating_count": 0,
+          "price_level": "",
+          "opening_hours": [
+            "Monday: 10:00 AM – 8:00 PM",
+            "Tuesday: 10:00 AM – 8:00 PM",
+            "Wednesday: 10:00 AM – 8:00 PM",
+            "Thursday: 10:00 AM – 8:00 PM",
+            "Friday: 10:00 AM – 8:00 PM",
+            "Saturday: 9:00 AM – 9:00 PM",
+            "Sunday: 9:00 AM – 9:00 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "text"
+        }
+      ],
+      "meals": {
+        "breakfast": {
+          "id": "boot-103-coffee-chow-kit",
+          "name": "103 Coffee - Chow Kit",
+          "location": {
+            "latitude": 3.1578542,
+            "longitude": 101.7008101,
+            "name": "103 Coffee - Chow Kit",
+            "address": "9, Jalan Yap Ah Shak, Chow Kit, 50300 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.5,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_MODERATE",
+          "opening_hours": [
+            "Monday: 7:30 AM – 8:00 PM",
+            "Tuesday: 7:30 AM – 8:00 PM",
+            "Wednesday: 7:30 AM – 8:00 PM",
+            "Thursday: 7:30 AM – 8:00 PM",
+            "Friday: 7:30 AM – 8:00 PM",
+            "Saturday: 7:30 AM – 8:00 PM",
+            "Sunday: 7:30 AM – 8:00 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        },
+        "lunch": {
+          "id": "boot-restoran-kin-kin",
+          "name": "Restoran Kin Kin",
+          "location": {
+            "latitude": 3.160123,
+            "longitude": 101.698421,
+            "name": "Restoran Kin Kin",
+            "address": "40, Jalan Dewan Sultan Sulaiman, Kampung Baru, 50300 Kuala Lumpur, Malaysia"
+          },
+          "types": [],
+          "primary_type": "",
+          "rating": 4.2,
+          "user_rating_count": 0,
+          "price_level": "PRICE_LEVEL_INEXPENSIVE",
+          "opening_hours": [
+            "Monday: 7:30 AM – 6:30 PM",
+            "Tuesday: 7:30 AM – 6:30 PM",
+            "Wednesday: 7:30 AM – 6:30 PM",
+            "Thursday: 7:30 AM – 6:30 PM",
+            "Friday: 7:30 AM – 6:30 PM",
+            "Saturday: 7:30 AM – 6:30 PM",
+            "Sunday: 7:30 AM – 6:30 PM"
+          ],
+          "visit_duration_min": 60,
+          "score": 0.0,
+          "source": "meal"
+        }
+      },
+      "dropped_meals": [],
+      "capacity_min": 1,
+      "capacity_max": 2,
+      "valid": true,
+      "violations": []
+    }
+  ],
+  "used_restaurants": [
+    "103 coffee - chow kit",
+    "damascus bukit bintang",
+    "grumpy bagels",
+    "nasi lemak wanjo kg baru",
+    "restoran kin kin",
+    "village park restaurant"
+  ],
+  "preferences": {
+    "culture": 0.5,
+    "scenery": 0.5,
+    "food": 0.5,
+    "shopping": 0.5,
+    "entertainment": 0.5,
+    "adventure": 0.5,
+    "wellness": 0.5,
+    "city": 0.5
+  },
+  "display_itinerary": {
+    "destination": "Kuala Lumpur",
+    "start": "2026-09-22",
+    "end": "2026-09-24",
+    "days": [
+      {
+        "day": 0,
+        "date": "2026-09-22",
+        "type": "arrival",
+        "valid": true,
+        "schedule": [
+          {
+            "time": "15:00",
+            "name": "Hotel Check-in (Impiana KLCC Hotel)",
+            "kind": "hotel_checkin",
+            "duration_min": 45,
+            "location": {
+              "latitude": 3.1535593,
+              "longitude": 101.7113219,
+              "name": "Impiana KLCC Hotel",
+              "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.2,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 8 mins ---> Menara Kuala Lumpur"
+            }
+          },
+          {
+            "time": "15:53",
+            "name": "Menara Kuala Lumpur",
+            "kind": "attraction",
+            "duration_min": 120,
+            "location": {
+              "latitude": 3.1528762,
+              "longitude": 101.7038516,
+              "name": "Menara Kuala Lumpur",
+              "address": "2 Jalan Punchak, Off, Jalan P. Ramlee, Kuala Lumpur, 50250 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.5,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 9:00 AM – 10:00 PM",
+              "Tuesday: 9:00 AM – 10:00 PM",
+              "Wednesday: 9:00 AM – 10:00 PM",
+              "Thursday: 9:00 AM – 10:00 PM",
+              "Friday: 9:00 AM – 10:00 PM",
+              "Saturday: 9:00 AM – 10:00 PM",
+              "Sunday: 9:00 AM – 10:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 9 mins ---> Dinner: Damascus Bukit Bintang"
+            }
+          },
+          {
+            "time": "18:02",
+            "name": "Dinner: Damascus Bukit Bintang",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.147299,
+              "longitude": 101.7116443,
+              "name": "Damascus Bukit Bintang",
+              "address": "Corner of Jalan Bukit Bintang and Jln Sultan Ismail, Bukit Bintang, 55100 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.4,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "opening_hours": [
+              "Monday: 8:00 AM – 4:30 AM",
+              "Tuesday: 8:00 AM – 4:30 AM",
+              "Wednesday: 8:00 AM – 4:30 AM",
+              "Thursday: 8:00 AM – 4:30 AM",
+              "Friday: 8:00 AM – 1:00 PM, 2:00 PM – 4:30 AM",
+              "Saturday: 8:00 AM – 4:30 AM",
+              "Sunday: 8:00 AM – 4:30 AM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 6 mins ---> Return to Hotel (Impiana KLCC Hotel)"
+            }
+          },
+          {
+            "time": "19:08",
+            "name": "Return to Hotel (Impiana KLCC Hotel)",
+            "kind": "hotel",
+            "duration_min": 0,
+            "location": {
+              "latitude": 3.1535593,
+              "longitude": 101.7113219,
+              "name": "Impiana KLCC Hotel",
+              "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+            },
+            "rating": null,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": null
+          }
+        ],
+        "attractions": [
+          "Menara Kuala Lumpur"
+        ],
+        "meals": {
+          "breakfast": null,
+          "lunch": null,
+          "dinner": "Damascus Bukit Bintang"
+        }
+      },
+      {
+        "day": 1,
+        "date": "2026-09-23",
+        "type": "normal",
+        "valid": true,
+        "schedule": [
+          {
+            "time": "09:00",
+            "name": "Breakfast: Grumpy Bagels",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1457067,
+              "longitude": 101.7164868,
+              "name": "Grumpy Bagels",
+              "address": "5, Jalan Kamuning, Off, Jln Imbi, Imbi, 55100 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.6,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "opening_hours": [
+              "Monday: 9:00 AM – 5:00 PM",
+              "Tuesday: 9:00 AM – 5:00 PM",
+              "Wednesday: 9:00 AM – 5:00 PM",
+              "Thursday: 9:00 AM – 5:00 PM",
+              "Friday: 9:00 AM – 5:00 PM",
+              "Saturday: 8:30 AM – 5:00 PM",
+              "Sunday: 8:30 AM – 5:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 6 mins ---> KLCC Park"
+            }
+          },
+          {
+            "time": "10:06",
+            "name": "KLCC Park",
+            "kind": "attraction",
+            "duration_min": 120,
+            "location": {
+              "latitude": 3.1555902,
+              "longitude": 101.7147872,
+              "name": "KLCC Park",
+              "address": "City Centre, Kuala Lumpur City Centre, 50450 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.7,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 6:00 AM – 10:00 PM",
+              "Tuesday: 6:00 AM – 10:00 PM",
+              "Wednesday: 6:00 AM – 10:00 PM",
+              "Thursday: 6:00 AM – 10:00 PM",
+              "Friday: 6:00 AM – 10:00 PM",
+              "Saturday: 6:00 AM – 10:00 PM",
+              "Sunday: 6:00 AM – 10:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 10 mins ---> Lunch: Village Park Restaurant"
+            }
+          },
+          {
+            "time": "12:30",
+            "name": "Lunch: Village Park Restaurant",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1378,
+              "longitude": 101.6218,
+              "name": "Village Park Restaurant",
+              "address": "5, Jalan SS 21/37, Damansara Utama, 47400 Petaling Jaya, Selangor, Malaysia"
+            },
+            "rating": 4.6,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "opening_hours": [
+              "Monday: 6:30 AM – 5:30 PM",
+              "Tuesday: 6:30 AM – 5:30 PM",
+              "Wednesday: 6:30 AM – 5:30 PM",
+              "Thursday: 6:30 AM – 5:30 PM",
+              "Friday: 6:30 AM – 5:30 PM",
+              "Saturday: 6:30 AM – 5:30 PM",
+              "Sunday: 6:30 AM – 5:30 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 10 mins ---> Suria KLCC"
+            }
+          },
+          {
+            "time": "13:40",
+            "name": "Suria KLCC",
+            "kind": "attraction",
+            "duration_min": 120,
+            "location": {
+              "latitude": 3.1572757,
+              "longitude": 101.7122335,
+              "name": "Suria KLCC",
+              "address": "Lot No. 241, Level 2 Menara Berkembar Petronas, KLCC, 50088 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.6,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 10:00 AM – 10:00 PM",
+              "Tuesday: 10:00 AM – 10:00 PM",
+              "Wednesday: 10:00 AM – 10:00 PM",
+              "Thursday: 10:00 AM – 10:00 PM",
+              "Friday: 10:00 AM – 10:00 PM",
+              "Saturday: 10:00 AM – 10:00 PM",
+              "Sunday: 10:00 AM – 10:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 0 mins ---> Petronas Twin Towers"
+            }
+          },
+          {
+            "time": "15:40",
+            "name": "Petronas Twin Towers",
+            "kind": "attraction",
+            "duration_min": 120,
+            "location": {
+              "latitude": 3.1574693,
+              "longitude": 101.7115639,
+              "name": "Petronas Twin Towers",
+              "address": "Lower Ground Concourse Level, Menara Berkembar Petronas, KLCC, 50088 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.7,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: Closed",
+              "Tuesday: 9:00 AM – 9:00 PM",
+              "Wednesday: 9:00 AM – 9:00 PM",
+              "Thursday: 9:00 AM – 9:00 PM",
+              "Friday: 9:00 AM – 9:00 PM",
+              "Saturday: 9:00 AM – 9:00 PM",
+              "Sunday: 9:00 AM – 9:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 10 mins ---> Dinner: Nasi Lemak Wanjo Kg Baru"
+            }
+          },
+          {
+            "time": "18:30",
+            "name": "Dinner: Nasi Lemak Wanjo Kg Baru",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1623698,
+              "longitude": 101.7044279,
+              "name": "Nasi Lemak Wanjo Kg Baru",
+              "address": "8, Jalan Raja Muda Musa, Kampung Baru, 50300 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.1,
+            "price_level": "PRICE_LEVEL_INEXPENSIVE",
+            "opening_hours": [
+              "Monday: 6:00 AM – 12:00 AM",
+              "Tuesday: 6:00 AM – 12:00 AM",
+              "Wednesday: 6:00 AM – 12:00 AM",
+              "Thursday: 6:00 AM – 12:00 AM",
+              "Friday: 6:00 AM – 12:00 AM",
+              "Saturday: 6:00 AM – 12:00 AM",
+              "Sunday: 6:00 AM – 12:00 AM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 13 mins ---> Return to Hotel (Impiana KLCC Hotel)"
+            }
+          },
+          {
+            "time": "19:43",
+            "name": "Return to Hotel (Impiana KLCC Hotel)",
+            "kind": "hotel",
+            "duration_min": 0,
+            "location": {
+              "latitude": 3.1535593,
+              "longitude": 101.7113219,
+              "name": "Impiana KLCC Hotel",
+              "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+            },
+            "rating": null,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": null
+          }
+        ],
+        "attractions": [
+          "KLCC Park",
+          "Suria KLCC",
+          "Petronas Twin Towers"
+        ],
+        "meals": {
+          "breakfast": "Grumpy Bagels",
+          "lunch": "Village Park Restaurant",
+          "dinner": "Nasi Lemak Wanjo Kg Baru"
+        }
+      },
+      {
+        "day": 2,
+        "date": "2026-09-24",
+        "type": "departure",
+        "valid": true,
+        "schedule": [
+          {
+            "time": "08:30",
+            "name": "Breakfast: 103 Coffee - Chow Kit",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.1578542,
+              "longitude": 101.7008101,
+              "name": "103 Coffee - Chow Kit",
+              "address": "9, Jalan Yap Ah Shak, Chow Kit, 50300 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.5,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "opening_hours": [
+              "Monday: 7:30 AM – 8:00 PM",
+              "Tuesday: 7:30 AM – 8:00 PM",
+              "Wednesday: 7:30 AM – 8:00 PM",
+              "Thursday: 7:30 AM – 8:00 PM",
+              "Friday: 7:30 AM – 8:00 PM",
+              "Saturday: 7:30 AM – 8:00 PM",
+              "Sunday: 7:30 AM – 8:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 10 mins ---> Aquaria KLCC"
+            }
+          },
+          {
+            "time": "10:00",
+            "name": "Aquaria KLCC",
+            "kind": "attraction",
+            "duration_min": 50,
+            "location": {
+              "latitude": 3.1535483,
+              "longitude": 101.713178,
+              "name": "Aquaria KLCC",
+              "address": "Kuala Lumpur Convention Centre, Jalan Pinang, KLCC, 50088 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.3,
+            "price_level": "",
+            "opening_hours": [
+              "Monday: 10:00 AM – 8:00 PM",
+              "Tuesday: 10:00 AM – 8:00 PM",
+              "Wednesday: 10:00 AM – 8:00 PM",
+              "Thursday: 10:00 AM – 8:00 PM",
+              "Friday: 10:00 AM – 8:00 PM",
+              "Saturday: 9:00 AM – 9:00 PM",
+              "Sunday: 9:00 AM – 9:00 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 2 mins ---> Hotel Check-out (Impiana KLCC Hotel)"
+            }
+          },
+          {
+            "time": "11:00",
+            "name": "Hotel Check-out (Impiana KLCC Hotel)",
+            "kind": "hotel_checkin",
+            "duration_min": 45,
+            "location": {
+              "latitude": 3.1535593,
+              "longitude": 101.7113219,
+              "name": "Impiana KLCC Hotel",
+              "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.2,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 12 mins ---> Lunch: Restoran Kin Kin"
+            }
+          },
+          {
+            "time": "11:57",
+            "name": "Lunch: Restoran Kin Kin",
+            "kind": "meal",
+            "duration_min": 60,
+            "location": {
+              "latitude": 3.160123,
+              "longitude": 101.698421,
+              "name": "Restoran Kin Kin",
+              "address": "40, Jalan Dewan Sultan Sulaiman, Kampung Baru, 50300 Kuala Lumpur, Malaysia"
+            },
+            "rating": 4.2,
+            "price_level": "PRICE_LEVEL_INEXPENSIVE",
+            "opening_hours": [
+              "Monday: 7:30 AM – 6:30 PM",
+              "Tuesday: 7:30 AM – 6:30 PM",
+              "Wednesday: 7:30 AM – 6:30 PM",
+              "Thursday: 7:30 AM – 6:30 PM",
+              "Friday: 7:30 AM – 6:30 PM",
+              "Saturday: 7:30 AM – 6:30 PM",
+              "Sunday: 7:30 AM – 6:30 PM"
+            ],
+            "transit_to_next": {
+              "mode": "drive",
+              "description": "Drive --- 12 mins ---> Pick Up Bags & Depart for Airport"
+            }
+          },
+          {
+            "time": "13:15",
+            "name": "Pick Up Bags & Depart for Airport",
+            "kind": "hotel",
+            "duration_min": 0,
+            "location": {
+              "latitude": 3.1535593,
+              "longitude": 101.7113219,
+              "name": "Impiana KLCC Hotel",
+              "address": "13, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Malaysia"
+            },
+            "rating": null,
+            "price_level": null,
+            "opening_hours": [],
+            "transit_to_next": null
+          }
+        ],
+        "attractions": [
+          "Aquaria KLCC"
+        ],
+        "meals": {
+          "breakfast": "103 Coffee - Chow Kit",
+          "lunch": "Restoran Kin Kin",
+          "dinner": null
+        }
+      }
+    ],
+    "error": null
+  }
+}

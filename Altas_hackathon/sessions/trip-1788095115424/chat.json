@@ -1,0 +1,35 @@
+{
+  "summary": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Summarize the generated itinerary",
+      "timestamp": "2026-08-30T13:05:16.290699+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Your 3-day Kuala Lumpur itinerary includes visiting Batu Caves on day 1, exploring Thean Hou Temple, Perdana Botanical Gardens, and the Islamic Arts Museum on day 2, and visiting the National Monument on day 3 before your departure. You will be staying at the Traders Hotel throughout your trip.",
+      "timestamp": "2026-08-30T13:05:25.346938+00:00"
+    },
+    {
+      "role": "user",
+      "content": "When is my hotel check-out time?",
+      "timestamp": "2026-08-30T13:05:26.051899+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Your hotel check-out time is at 09:38 on 2026-09-24.",
+      "timestamp": "2026-08-30T13:05:33.641520+00:00"
+    },
+    {
+      "role": "user",
+      "content": "what time i need to Pick Up Bags & Depart for Airport?",
+      "timestamp": "2026-08-30T13:06:02.485592+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "You need to pick up your bags and depart for the airport at 12:51.",
+      "timestamp": "2026-08-30T13:06:06.818746+00:00"
+    }
+  ]
+}

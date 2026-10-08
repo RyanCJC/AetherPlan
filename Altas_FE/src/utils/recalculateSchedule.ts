@@ -18,7 +18,7 @@ const haversineMeters = (lat1: number, lng1: number, lat2: number, lng2: number)
 };
 
 // Optimistic client-side transit estimate for a newly-created adjacency.
-const estimateTransit = (from: TimelineItem, to: TimelineItem): TransitInfo => {
+export const estimateTransit = (from: TimelineItem, to: TimelineItem): TransitInfo => {
   const fromLat = from.mapCoords?.lat;
   const fromLng = from.mapCoords?.lng;
   const toLat = to.mapCoords?.lat;
@@ -118,3 +118,41 @@ export const recalculateSchedule = (
 
   return result;
 };
+
+// Fills in a haversine-estimated transitToNext for any item that doesn't
+// already have one (and has a valid next item) — an optimistic placeholder
+// while a real routing refinement (computeRefinedTransit) is in flight or
+// unavailable. Unlike recalculateSchedule, this is a single pass over final
+// item order and never touches times or infers adjacency from array-position
+// deltas, so it's safe to call after an insertion, not just a same-length
+// reorder.
+export const fillMissingTransit = (items: TimelineItem[]): TimelineItem[] => {
+  return items.map((item, idx) => {
+    if (item.transitToNext) return item;
+    const next = items[idx + 1];
+    if (!next) return item;
+    return { ...item, transitToNext: estimateTransit(item, next) };
+  });
+};
+
+// A "Return to Hotel" rest beat only makes sense once the guest has actually
+// checked in (day 1) and before they've checked out (last day). This has to
+// be re-evaluated any time check-in/check-out can move — not computed once
+// at generation and left stale, since changing the hotel changes the window.
+export const isReturnToHotelBeat = (item: TimelineItem): boolean =>
+  item.tag === 'Rest' && item.title.includes('Return to Hotel');
+
+export const pruneRestBeats = (
+  items: TimelineItem[],
+  opts: { isFirstDay: boolean; isLastDay: boolean; checkIn?: string; checkOut?: string },
+): TimelineItem[] =>
+  items.filter((item) => {
+    if (!isReturnToHotelBeat(item)) return true;
+    if (opts.isFirstDay && opts.checkIn && timeToMinutes(item.time) < timeToMinutes(opts.checkIn)) {
+      return false;
+    }
+    if (opts.isLastDay && opts.checkOut && timeToMinutes(item.time) > timeToMinutes(opts.checkOut)) {
+      return false;
+    }
+    return true;
+  });
